@@ -65,3 +65,7 @@ Next Im told to run yarGen
 <img width="1912" height="914" alt="image" src="https://github.com/user-attachments/assets/7b16608f-b135-492f-abf5-db83a03b37f0" />
 
 
+"Now, for the moment of truth. We'll unleash YARA with our newly minted rule to see if it sniffs out any matches when run against a malware sample repository located at home/htb-student/Samples/YARASigma inside this section's target."
+
+<img width="1243" height="162" alt="image" src="https://github.com/user-attachments/assets/0fba57f4-55ad-41e2-bf91-186fa3edc8f7" />
+
