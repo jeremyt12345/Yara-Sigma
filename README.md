@@ -69,3 +69,8 @@ Next Im told to run yarGen
 
 <img width="1243" height="162" alt="image" src="https://github.com/user-attachments/assets/0fba57f4-55ad-41e2-bf91-186fa3edc8f7" />
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Day 2
+
+Manually Developing a YARA Rule
