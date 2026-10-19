@@ -15,3 +15,12 @@ Watching this video to get an overreview
 Usages of Yara
 
 <img width="952" height="798" alt="image" src="https://github.com/user-attachments/assets/5beda283-03c3-4889-b70b-766e691f5a59" />
+
+
+
+YARA Rule Breakdown:
+
+1. Rule Header
+2. Rule Meta
+3. Rule Body
+4. Rule Conditions
