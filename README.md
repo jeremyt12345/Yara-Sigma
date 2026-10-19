@@ -24,3 +24,16 @@ YARA Rule Breakdown:
 2. Rule Meta
 3. Rule Body
 4. Rule Conditions
+
+
+Before I go into the questions I am to first to understand the process behind crafting a YARA rule by following this HTB prompt
+
+-I ssh'd into the ip then ran the prompts:
+
+cd /home/htb-student/Samples/YARASigma
+ls
+strings svchost.exe
+
+"From the first few strings, it becomes evident that the file is packed using the UPX (Ultimate Packer for eXecutables) packer. Given this discovery, we can incorporate UPX-related strings to formulate a basic YARA rule targeting samples packed via UPX."
+
+<img width="686" height="348" alt="image" src="https://github.com/user-attachments/assets/d19f9c1a-8af1-43e4-b08c-fad59fbd4bfc" />
