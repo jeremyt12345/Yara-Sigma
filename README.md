@@ -76,3 +76,15 @@ Day 2
 Manually Developing a YARA Rule
 
 The rest of the article was going over examples of creating Yara Rules based on real attacks that happened and were documented such as this one: https://web.archive.org/web/20250607083048/https://www.ncsc.gov.uk/static-assets/documents/Turla%20group%20using%20Neuron%20and%20Nautilus%20tools%20alongside%20Snake%20malware_1.pdf
+
+
+My goal was to solve this question and I did use AI but my plan is to use it minimally going forward.
+
+Step 1: ssh into machine
+
+ssh htb-student@IP 
+Password:_______
+
+
+<img width="1908" height="831" alt="image" src="https://github.com/user-attachments/assets/770b4522-f35f-457e-8f6d-e3b1361cb5f6" />
+
