@@ -102,6 +102,11 @@ What is string analysis?
 Now to find the rule we use the command 
 "cat /home/htb-student/Rules/yara/apt_apt17_mal_sep17_1.yar"
 
+<img width="883" height="486" alt="image" src="https://github.com/user-attachments/assets/09279b7b-98fe-4601-bd6f-bcafb315fb41" />
+
+Using process of elimination we can find the correct one.
+
+
 From the command I found the placeholder. For reference I'm doing all this to replace the correct DLL so the rule can actually be detected.
 
 <img width="879" height="326" alt="image" src="https://github.com/user-attachments/assets/495c0434-dc0c-402f-be07-11c3e0c903f0" />
