@@ -88,3 +88,15 @@ Password:_______
 
 <img width="1908" height="831" alt="image" src="https://github.com/user-attachments/assets/770b4522-f35f-457e-8f6d-e3b1361cb5f6" />
 
+
+
+Day 3
+
+My goal while doing these labs is not so much to get the cert (CDSA) but to understand each question to further my knowledge.
+
+Q1: "Perform string analysis on the "DirectX.dll" sample that resides in the "/home/htb-student/Samples/YARASigma" directory of this section's target. Then, study the "apt_apt17_mal_sep17_1.yar" YARA rule that resides in the "/home/htb-student/Rules/yara" directory and replace "X.dll" with the correct DLL name to ensure the rule will identify "DirectX.dll". Enter the correct DLL name as your answer. Answer format: _.dll"
+
+What is string analysis? 
+- String analysis is a cornerstone of malware investigation, revealing embedded commands, URLs, and other artifacts that can expose a threat’s intent.
+
+
