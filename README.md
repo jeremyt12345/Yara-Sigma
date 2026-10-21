@@ -121,5 +121,21 @@ Using this command check to see if there is a match in the rule, if we get a ret
 
 "yara /home/htb-student/Rules/yara/apt_apt17_mal_sep17_1.yar /home/htb-student/Samples/YARASigma/DirectX.dll"
 
-<img width="877" height="309" alt="image" src="https://github.com/user-attachments/assets/a0e50f19-451a-4d35-b671-f09ec0880e56" />
+<img width="877" height="309" alt="image" src="https://github.com/user-attachments/assets/60a24c2d-0f7e-4d97-9586-1cbca57b1520" />
 
+
+....and no return
+
+
+So now Im going into the file to edit the dll so we can get our rule match
+
+
+<img width="983" height="536" alt="image" src="https://github.com/user-attachments/assets/a24307fe-5901-429a-a711-501a569983a2" />
+
+
+
+The final test after this command we can confirm we got our match
+
+"yara ~/apt17_fixed.yar /home/htb-student/Samples/YARASigma/DirectX.dll"
+
+<img width="775" height="335" alt="image" src="https://github.com/user-attachments/assets/26d8bff3-8ea7-4b0e-8cbb-f22b6bddea28" />
