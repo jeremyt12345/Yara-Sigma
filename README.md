@@ -102,12 +102,24 @@ What is string analysis?
 Now to find the rule we use the command 
 "cat /home/htb-student/Rules/yara/apt_apt17_mal_sep17_1.yar"
 
-<img width="883" height="486" alt="image" src="https://github.com/user-attachments/assets/09279b7b-98fe-4601-bd6f-bcafb315fb41" />
+<img width="879" height="326" alt="image" src="https://github.com/user-attachments/assets/495c0434-dc0c-402f-be07-11c3e0c903f0" />
+
 
 Using process of elimination we can find the correct one.
 
 
 From the command I found the placeholder. For reference I'm doing all this to replace the correct DLL so the rule can actually be detected.
 
-<img width="879" height="326" alt="image" src="https://github.com/user-attachments/assets/495c0434-dc0c-402f-be07-11c3e0c903f0" />
+
+
+<img width="883" height="486" alt="image" src="https://github.com/user-attachments/assets/09279b7b-98fe-4601-bd6f-bcafb315fb41" />
+
+
+Now we want to see, match and confirm
+
+Using this command check to see if there is a match in the rule, if we get a return we have a match
+
+"yara /home/htb-student/Rules/yara/apt_apt17_mal_sep17_1.yar /home/htb-student/Samples/YARASigma/DirectX.dll"
+
+<img width="877" height="309" alt="image" src="https://github.com/user-attachments/assets/a0e50f19-451a-4d35-b671-f09ec0880e56" />
 
