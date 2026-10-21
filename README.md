@@ -99,4 +99,10 @@ Q1: "Perform string analysis on the "DirectX.dll" sample that resides in the "/h
 What is string analysis? 
 - String analysis is a cornerstone of malware investigation, revealing embedded commands, URLs, and other artifacts that can expose a threat’s intent.
 
+Now to find the rule we use the command 
+"cat /home/htb-student/Rules/yara/apt_apt17_mal_sep17_1.yar"
+
+From the command I found the placeholder. For reference I'm doing all this to replace the correct DLL so the rule can actually be detected.
+
+<img width="879" height="326" alt="image" src="https://github.com/user-attachments/assets/495c0434-dc0c-402f-be07-11c3e0c903f0" />
 
