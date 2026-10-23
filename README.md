@@ -139,4 +139,9 @@ The final test after this command we can confirm we got our match
 "yara ~/apt17_fixed.yar /home/htb-student/Samples/YARASigma/DirectX.dll"
 
 <img width="775" height="335" alt="image" src="https://github.com/user-attachments/assets/c1f3f940-fd65-433e-afab-cec8fbe4ca08" />
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Hunting Evil with YARA (Windows Edition)
+
+
 
