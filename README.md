@@ -141,6 +141,26 @@ The final test after this command we can confirm we got our match
 <img width="775" height="335" alt="image" src="https://github.com/user-attachments/assets/c1f3f940-fd65-433e-afab-cec8fbe4ca08" />
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+Today I wanted to get a better understanding of Malware analysis and how and why I would be using Yara Rules. It previously didnt make sense to me why I would anazlyze malware on a machine on the network while its active. And Would I do that before or after an inicident? Here is what Claud AI explained??
+
+"In real life the malware is already there because the detection rules come after something got through. The lab drops you into the middle of that story: the infection has happened, someone collected the sample, and now you’re the analyst.
+
+Why the sample is “already on the device”
+
+That HTB box (ACADEMY-YARASIGMA-FLARE) is a malware analysis workstation built on FLARE VM, Mandiant’s Windows analysis distro. It isn’t a victim machine, and nobody there got infected. The sample was put there on purpose so you could study it safely.
+
+A real-world equivalent at EMS might go like this:
+
+Something gets past your defenses. A phishing attachment slips through, Huntress flags a weird process, Darktrace sees odd beaconing, or a user reports their PC acting strange.
+You collect the sample. You pull the file from quarantine, from the email, or from the endpoint, and grab a memory dump if it’s running.
+You analyze it in an isolated VM. Like this HTB box, it’s a disposable machine off your real network. You run the sample and watch what it does: the strings it reveals, the files it drops, the connections it makes.
+You write detections from what you learned:
+A YARA rule for the file and memory traits unique to this malware.
+A Sigma rule for the behavior it leaves in logs.
+You hunt across the environment. The real question is never “is this one PC infected?” because you already know it is. The question is: did it land anywhere else that AV missed, and will we catch it next time?
+
+So the malware being present isn’t the point. It’s the evidence you mine to build detections that protect every other machine."
+
 Hunting Evil with YARA (Windows Edition)
 
 
