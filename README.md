@@ -194,5 +194,22 @@ With this lesson my goal is to read and understand this article about the Wanacr
 
 <img width="1083" height="396" alt="image" src="https://github.com/user-attachments/assets/3e35afa9-26f6-40a9-8f75-c4a5e5aeb5f7" />
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hunting Evil with YARA (Web Edition)
+
+
+There's also a web tool to find/inspect malware on a tool called "Unpac.Me" it grants us the capability to run our YARA rules over their amassed database of malware submissions. 
+
+
+
+<img width="1011" height="632" alt="image" src="https://github.com/user-attachments/assets/8a87a1e0-651f-477c-bec9-a56735eade93" />
+
+
+<img width="1128" height="631" alt="image" src="https://github.com/user-attachments/assets/f683b9a5-e535-448c-813d-4e70afff4711" />
+
+
+<img width="1276" height="787" alt="image" src="https://github.com/user-attachments/assets/70458eda-a215-4e3b-adb7-f2c2b192cb12" />
+
+
 
 
