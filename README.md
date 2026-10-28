@@ -180,3 +180,19 @@ With this lesson my goal is to read and understand this article about the Wanacr
 -Article: https://blogs.vmware.com/security/2022/09/threat-report-illuminating-volume-shadow-deletion.html
 
 
+". The attackers’ goal is simple: prevent access to data using numerous methods to ensure that data is inaccessible until a desired ransom is paid."
+
+
+"Ransomware doesn’t just encrypt files. It also deletes Windows Volume Shadow Copies, the built-in “Previous Versions” backups, so victims can’t restore without paying. CryptoLocker’s first version skipped this, and victims recovered easily, so attackers added it within months. Now almost every ransomware does it. The paper goes on to describe a newer deletion method that evades many detection tools"
+
+
+<img width="1034" height="208" alt="image" src="https://github.com/user-attachments/assets/c7194e23-9603-449e-85df-c403eca3a924" />
+
+
+
+-I then ssh'd into the VM. Found the directory and used the command "vol.py -f /home/htb-student/MemoryDumps/compromised_system.raw yarascan -U "vssadmin delete shadows""
+
+<img width="1083" height="396" alt="image" src="https://github.com/user-attachments/assets/3e35afa9-26f6-40a9-8f75-c4a5e5aeb5f7" />
+
+
+
