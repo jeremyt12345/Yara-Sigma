@@ -161,10 +161,22 @@ You hunt across the environment. The real question is never “is this one PC in
 
 So the malware being present isn’t the point. It’s the evidence you mine to build detections that protect every other machine."
 
-Hunting Evil with YARA (Windows Edition)
+Hunting Evil with YARA (Linux Edition)
 
 
 
+Often times when you want to investigate/remdiate malware but dont have direct access to the machine a memory capture or dump can be used just like receiving a snapshot of the system. We can run Yara based scans on these memory images. 
 
+" we can peer into the state of the system, looking for signs of malicious activity or compromised indicators, all without ever having direct access to the machine itself."
+
+YARA's memory image scanning mirrors its disk-based counterpart. Let's map out the process
+-Create Yara Rules
+-Compile Yara Rules
+-Obtain Memory Image
+-Memory Image scan/w Yara
+
+With this lesson my goal is to read and understand this article about the Wanacry Shadow Volume deletion 2022 incident and identify the process in a VM in HTB.
+
+-Article: https://blogs.vmware.com/security/2022/09/threat-report-illuminating-volume-shadow-deletion.html
 
 
